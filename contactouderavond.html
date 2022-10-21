@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact pagina</title>
+    <link  rel="stylesheet" href="informatieveouderavond%20website.css">
+    <style>
+        body {
+            background-color: darkslategray ;
+        }
+        {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: blue;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: darkcyan;
+            padding: 20px;
+        }
+        div{
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="ouderavond%20website.html">Home</a>
+    <a href="https://flexedu.instructure.com/">Canvas</a>
+
+
+    <a href="contactouderavond.html">Contact</a>
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <lord-icon
+            src="https://cdn.lordicon.com/flvisirw.json"
+            trigger="hover"
+            style="width:50px;height:50px">
+
+
+    </lord-icon>
+    <input type="text" placeholder="Search.." style="width:200px; height:25px">
+</div>
+<h1> Contact ons</h1>
+<div class="container">
+    <form action="/action_page.php">
+        <label for="fname">Voornaam</label>
+        <input type="text" id="fname" name="firstname" placeholder="U voornaam">
+
+        <label for="lname">Achternaam</label>
+        <input type="text" id="lname" name="lastname" placeholder="Voer hier u achternaam in">
+
+        <label for="country">Land</label>
+        <select id="country" name="country">
+            <option value="The Netherlands">The Netherlands</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Portugal">Portugal</option>
+            <option value="France">France</option>
+        </select>
+
+        <label for="subject">Bericht</label>
+        <textarea id="subject" name="subject" placeholder="Typ hier text" style="height:200px"></textarea>
+
+        <input type="submit" value="Versturen">
+    </form>
+</div>
+
+</body>
+</html>
