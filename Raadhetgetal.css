@@ -1,0 +1,13 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: Arial;
+}
+button{
+    border-radius: 10px;
+    font-size: 17px;
+}
+input{
+    border-radius: 10px;
+    font-size: 20px;
+}

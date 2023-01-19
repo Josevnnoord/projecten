@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raad het getal</title>
+    <style>
+        body{
+            background-image: url("gameachtergrond.jpg");
+
+        }
+    </style>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Raad het getal</title>
+    <link rel="stylesheet" href="Raadhetgetal.css">
+
+</head>
+
+<body>
+
+<header id="container">
+    <section class="panel">
+        <h2>Raad het getal <br>Tussen 1-100</h2>
+        <button id="newgame">Nieuw Spel</button>
+    </section>
+</header>
+
+<main>
+    <section class="panel">
+        <h3 id="textOutput">Kies een getal en druk op enter</h3>
+        <input type="number" id="inputBox">
+        <p>
+            Aantal keer geprobeerd: <strong id="attempts"></strong>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <section class="panel">
+        <p>Je hebt al geraden:</p>
+        <p id="geraden"></p>
+
+    </section>
+
+</footer>
+
+<script src="raadhetgetal.js"></script>
+</body>
+
+</html>
